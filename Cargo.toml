@@ -1,0 +1,16 @@
+[package]
+name = "zk_battleship"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ark-ed-on-bls12-381 = "0.4.0"
+ark-ff = "0.4.2"
+ark-groth16 = "0.4.0"
+ark-r1cs-std = "0.4.0"
+ark-relations = "0.4.0"
+ark-snark = "0.4.0"
+itertools = "0.11.0"
+rand = "0.8.5"

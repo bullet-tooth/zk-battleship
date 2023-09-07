@@ -18,7 +18,8 @@ To run the application you need Rust installed, then simply run:
 cargo run
 ```
 
-## TODO
+## TODOs
 
-* Add zkSNARK verification using Groth16 proof system.
+* Check field correctness including ship bounds.
+* Add trusted setup for zkSNARK verification using Groth16 proof system.
 * Add proof generation for each shoot i.e. generate ZK proof that the user hit a ship or missed.
